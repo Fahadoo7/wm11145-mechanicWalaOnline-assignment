@@ -1,0 +1,346 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<style>
+    body {}
+
+    .navbar {
+        position: fixed;
+        z-index: 2;
+    }
+
+    .navbar-text {
+        font-size: 20px;
+        font-weight: bold;
+        color: #bb2f1a;
+        text-align: center;
+
+    }
+
+    .nav-item:hover {
+        box-shadow: 2px 2px 4px red;
+        background-color: ;
+        color: white;
+        border-radius: 7px;
+        transition-duration: 0.5s;
+    }
+
+    .row {
+        background-color: ;
+
+    }
+
+    .col {
+        margin-top: 10px;
+
+        border-radius: 5px;
+        width: 10%;
+        padding: 10px;
+        margin-left: 10px;
+
+        text-align: center;
+    }
+
+    .fa {
+        display: flex;
+        padding: 5px;
+        justify-content: center;
+
+
+
+
+    }
+
+    .slick-track {
+        background-color: black;
+        color: lightgrey;
+        text-align: center;
+    }
+
+    .slick-img {
+        width: 133px;
+        margin-left: 50px;
+    }
+
+    .content {
+        margin-top: 50px;
+        color: grey;
+    }
+
+    .head-cont {
+        margin-top: 50px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .text-cant {
+
+        width: px;
+        text-align: justify;
+    }
+
+
+    .footer {
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+    }
+
+    .footer-col {
+        background-color: black;
+    }
+
+    .footer-icons {
+        margin-top: 5px;
+        display: flex;
+        justify-content: safe center;
+        justify-content: space-around;
+    }
+
+    .col:hover {
+        background-color: darkseagreen;
+        color: white;
+        box-shadow: 2px 2px 4px grey;
+    }
+
+    .footer-col:hover {
+        background-color: black;
+    }
+
+    .signin {
+        height: 30px;
+    }
+
+    .head-red {
+        border-bottom: 1px solid red;
+    }
+
+    .signin {
+        height: 30px;
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
+        <a class="navbar-brand" href="#"><img src="mec_logo2.png" width="150px" height="70px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Nslider.png" class="d-block w-100" height="600px" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="slid4.jpg" class="d-block w-100" height="600px" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="slid3.jpg" class="d-block w-100" height="600px" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <div id="about" class="content container container-sm">
+        <h1 class="head-red">About Mechanic Wala</h1>
+        <p class="text-cant">
+            Very few understand your car like a trusted and experienced car mechanic nearby. We too realised how
+            difficult it is to get a good car mechanic for car repair especially in a city like Mumbai. We at Car
+            Mechanics Online, feel the emotions attached with your car and came up with a convenient solution to build a
+            network of trusted and qualified car mechanics in Mumbai.
+            </br>
+            </br>
+
+            Car Mechanics Online believes in convenience and transparency for every car owner with the use of technology
+            with standard rates and no hidden charges in car servicing. Our 30+ CMO certified auto garages offer
+            end-to-end Car Repair and Services viz. complete car service, car bodywork, engine oil change, brakes
+            service, clutch & gear work, windshield replacement, AC service, car inspection, car denting-painting job,
+            wheel alignment & balancing and battery jump-start etc. Armed with technology, our partner mechanics are
+            ready to solve your car service hassles within a short time frame and at affordable pricing. Our multi-car
+            workshops accept multi-brand cars like Honda, Toyota, Maruti Suzuki, Hyundai, Mahindra, Tata Motors,
+            Volkswagen, BMW, Audi, Mercedes, Ford & other car manufacturers.
+        </p>
+    </div>
+    <div class="slick-track row">
+
+        <h1 class="head-red col-sm-4 col-md-4" align="center">Brands We Serve</h1>
+
+        <img class="slick-img col-sm-6 col-md-6" src="c1.png" alt="Mahindra" />
+
+
+        <img class="slick-img col-sm-6 col-md-6" src="c2.png" alt="Mahindra" />
+
+
+        <img class="slick-img col-sm-6 col-md-6" src="c3.jpg" alt="Mahindra" />
+
+
+        <img class="slick-img col-sm-12 col-md-12" src="c4.png" alt="Mahindra" />
+
+
+        <img class="slick-img col-sm-12 col-md-12" src="c5.png" alt="Mahindra" />
+
+
+        <img class="slick-img col-sm-12 col-md-12" src="c8.png" alt="Mahindra" />
+
+
+        <img class="slick-img col-sm-12 col-md-12" src="c9.png" alt="Mahindra" />
+
+
+        <img class="slick-img col-sm-12 col-md-12" src="c11.png" alt="Mahindra" />
+
+
+
+    </div>
+
+    <div class="card-container container">
+        <h1 class="head-red">Why Mechanic Wala ?</h1>
+        <div class="row card-row">
+            <div class="col col-sm-12 col-md-12 col-lg-6 col-xl-4   ">
+                <img src="team.png" />
+                <p>Certified And Experience Mechanics</p>
+            </div>
+            <div class="col col-sm-12 col-md-12 col-lg-6 col-xl-4   ">
+                <img src="handshak.png" />
+                <p>Comfirtable Price As Compair to franchise dealers</p>
+            </div>
+            <div class="col col-sm-12 col-md-12 col-lg-6 col-xl-4   ">
+                <img src="CarWash.png" />
+                <p> Get your car repaired at your home or office</p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-sm-12 col-md-12 col-lg-6 col-xl-4   ">
+                <img src="call.png" />
+                <p>24/7 hour Support </p>
+            </div>
+            <div class="col col-sm-12 col-md-12 col-lg-6 col-xl-4   ">
+                <img src="checkUp.png" />
+                <p>We Have Experts</p>
+            </div>
+            <div class="col col-sm-12 col-md-12 col-lg-6 col-xl-4   ">
+                <img src="electric.png" />
+                <p> SkillFull Technisions</p>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <div class="row">
+            <div class="col footer-col">
+                <i class="fa fa-phone fa-2x"></i>
+                <p>Phone :0300 1224456</p>
+            </div>
+            <div class="col footer-col ">
+                <i class="fa fa-map-marker fa-2x"></i>
+                <p>Adress : Karachi Pakistan</p>
+            </div>
+            <div class="col  footer-col ">
+                <i class="fa fa-envelope fa-2x"></i>
+                <p>Email&nbsp;: xyz@mechanicwala.com</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 footer-icons  ">
+                <i class="fa fa-facebook-square fa-2x"></i>
+
+                <i class="fa fa-instagram  fa-2x"></i>
+
+                <i class="fa fa-whatsapp  fa-2x"></i>
+
+                <i class="fa fa-linkedin-square  fa-2x"></i>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
