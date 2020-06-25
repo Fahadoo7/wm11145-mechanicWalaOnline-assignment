@@ -1,0 +1,19 @@
+.navbar-nav li{
+    text-align: center;
+    font-size: 25px;
+    font-style: bold;
+}
+.dropdown-menu{
+    text-align: center;
+    padding: 15px;
+}
+.card{
+    box-shadow:2px 2px 4px  grey;
+    margin:5px;
+    
+}
+.container{
+    margin-top: 50px;
+  
+}
+
